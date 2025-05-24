@@ -7,7 +7,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 
 # Load the dataset
-data = pd.read_csv("C:\\Users\\Rajireddy\\Downloads\\projects\\Crop-prediction-using-Machine-Learning\\cpdata.csv")
+data = pd.read_csv("cpdata.csv")
 
 # Separate features and target
 X = data[['temperature', 'humidity', 'ph', 'rainfall']]
